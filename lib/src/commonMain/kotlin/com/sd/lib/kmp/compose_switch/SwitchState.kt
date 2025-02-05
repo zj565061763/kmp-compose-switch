@@ -73,7 +73,7 @@ class FSwitchState internal constructor() {
           hasInitialized = true
         }
       } else {
-        val offset = boundsOffset(_checked)
+        val offset = boundsOffset(checked)
         animateToOffset(offset)
       }
     }
